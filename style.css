@@ -33,7 +33,6 @@ body a {
 }
 
 header {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +47,7 @@ header {
 }
 
 .logo {
-    /* border: 2px solid orange; */
+
     font-size: 2rem;
     color: var(--main-color);
     font-weight: 600;

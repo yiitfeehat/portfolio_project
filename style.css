@@ -172,7 +172,6 @@ section {
 }
 
 .btn {
-    /* border: 10px solid purple; */
     background-color: var(--main-color);
     padding: 1rem 3rem;
     border-radius: 1rem;

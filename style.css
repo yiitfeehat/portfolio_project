@@ -172,6 +172,7 @@ section {
 }
 
 .btn {
+    border: 10px solid purple;
     background-color: var(--main-color);
     padding: 1rem 3rem;
     border-radius: 1rem;
@@ -180,6 +181,10 @@ section {
     font-weight: bolder;
     font-size: 1.5rem;
     
+}
+
+.buttonkutusu{
+    margin-top: 2rem;
 }
 
 .btn:hover{

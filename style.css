@@ -156,8 +156,8 @@ section {
 
 .social-media a {
     /* border: 2px solid yellow; */
-    width: 2.5rem;
     height: 2.5rem;
+    width: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;

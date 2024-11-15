@@ -54,15 +54,19 @@ header {
     font-weight: 600;
     font-family: 'Orbitron', sans-serif;
     /* border: 2px solid red; */
-    
-}
-.logo::after {
-    content: ""; /* İlk gösterilecek yazı */
-    transition: content 5s ease; /* Akıcı geçiş için */
+
 }
 
-.logo:hover::after{
-    content: "       Full Stack Developer"; /* Hover sırasında değişecek yazı */
+.logo::after {
+    content: "";
+    /* İlk gösterilecek yazı */
+    transition: content 5s ease;
+    /* Akıcı geçiş için */
+}
+
+.logo:hover::after {
+    content: "       Full Stack Developer";
+    /* Hover sırasında değişecek yazı */
     font-variant: small-caps;
     animation: shine4 15s ease-in-out infinite alternate;
     color: var(--text-color);
@@ -177,9 +181,10 @@ section {
 }
 
 
-.name:hover::after{
+.name:hover::after {
     margin-left: 1.5rem;
-    content: "FerZerKer"; /* Hover sırasında değişecek yazı */
+    content: "FerZerKer";
+    /* Hover sırasında değişecek yazı */
     /* font-variant: small-caps; */
     animation: shine4 15s ease-in-out infinite alternate;
     color: var(--text-color);

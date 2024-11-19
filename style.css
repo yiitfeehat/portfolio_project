@@ -2,9 +2,6 @@
 
 
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -510,7 +507,6 @@ span {
     text-align: center;
 
 
-
 }
 
 .pro a {
@@ -574,7 +570,6 @@ h3 .nickname {
     animation: shine 3s ease-in-out infinite alternate;
     letter-spacing: -3.5px;
 }
-
 
 /* HOCADAN DIZLADIĞIM CSS AYAR KODLARI */
 
